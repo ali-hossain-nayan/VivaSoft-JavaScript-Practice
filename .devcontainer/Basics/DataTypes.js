@@ -1,4 +1,7 @@
-//Primitive always call by value
+
+// https://excalidraw.com/
+//Primitive always call by value we always get the copy of the variable 
+
 //7 types string,number,boolean,null is not 0 .its empty ,undefined,symbol,BigInt
 let num=6
 let name = "Nayan"
@@ -10,7 +13,7 @@ let anotherid = Symbol('567')
 console.log(id===anotherid)
 
 
-//Non primitive(Reference)
+//Non primitive(Reference) original value change if we change 
 //array,object,function
 
 let array = ['batman','spiderman','superman']
